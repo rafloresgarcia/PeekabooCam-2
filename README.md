@@ -175,11 +175,13 @@ Save with CTRL-O and ENTER, close with CTRL-X and reboot with:
 5V:
 
 Servo motor for Flag to **pin 5**
+
 Servo motor for Coverable Shutter to **pin 15**
 
 3V:
 
 Slide switch to **pin 16**
+
 Push Button to **pin 3**
 
 ![](./assets/image3.png)
