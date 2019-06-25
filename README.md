@@ -6,19 +6,27 @@ and a button for photo-taking. This is the open-source repository for the Peekab
 
 ## Publication
 
-We publish this open-source design as a companion to the DIS 2019 pictorial (*link available from June 24, 2019*). The pictorial is a great read and will give a good introduction to why we designed Peekaboo, how we did it and what the first results of deploying were.
+We publish this open-source design as a companion to the [DIS 2019 pictorial](https://dl.acm.org/citation.cfm?id=3323699). The pictorial is a great read/browse/ponder and introduces why we designed Peekaboo, how we did it and what the first results of deploying were.
 
 Please cite the pictorial as: 
 
-	@inproceedings{Cheng2019,
- 	author = {Cheng, Yu-Ting and Funk, Mathias and Tsai, Wenn-Chieh and Chen, Lin-Lin},
- 	title = {Peekaboo cam: designing an observational camera for home ecologies concerning privacy},
-	 booktitle = {Proceedings of the 2019 Designing Interactive Systems Conference},
-	 series = {DIS '19},
-	 year = {2019},
-	 publisher = {ACM},
-	 address = {New York, NY, USA}
-	} 
+	inproceedings{Cheng:2019:PCD:3322276.3323699,
+	author = {Cheng, Yu-Ting and Funk, Mathias and Tsai, Wenn-Chieh and Chen, Lin-Lin},
+	title = {Peekaboo Cam: Designing an Observational Camera for Home Ecologies Concerning Privacy},
+	booktitle = {Proceedings of the 2019 on Designing Interactive Systems Conference},
+	series = {DIS '19},
+	year = {2019},
+	isbn = {978-1-4503-5850-7},
+	location = {San Diego, CA, USA},
+	pages = {823--836},
+	numpages = {14},
+	url = {http://doi.acm.org/10.1145/3322276.3323699},
+	doi = {10.1145/3322276.3323699},
+	acmid = {3323699},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	keywords = {ecology of daily objects, home ethnography, observational camera, privacy, research product},
+	}
 
 
 ## Interaction Features
