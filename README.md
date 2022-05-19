@@ -142,9 +142,7 @@ will have an immediate effect.
 
 ### Pi Camera Settings
 
-Open the Raspberry Pi Configuration Tool from the main menu: Ensure the
-camera software is enabled: If it's not enabled, enable it and reboot
-your Pi to begin. Instructions [here](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/4).
+Open the Raspberry Pi Configuration Tool from the main menu: Ensure the camera software (the 5MP camera requires legacy camera support [here](https://www.raspberrypi.com/documentation/accessories/camera.html)) is enabled: If it's not enabled, enable it and reboot your Pi to begin. Instructions [here](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/4).
 
 
 ### Testing Pi Camera Module
@@ -156,7 +154,7 @@ To take a still photo, type in this command:
 Memory settings
 
 	sudo raspi-config
-select: Advanced options -\> Memory split -\> and set at least 128MB
+select: 4 Performance options -\> P2 GPU Memory -\> and set at least 128MB
 
 Some users report this message disappearing after changing the GPU
 memory allotment to 256MB from 128MB.
@@ -165,7 +163,7 @@ Open the terminal at the boot
 
 To auto-start the terminal on boot, open this file with nano:
 
-	nano ~/.config/lxsession/LXDE-pi/autostart
+	sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
 
 Add this line to the end of the file:
 
@@ -228,7 +226,7 @@ Auto run the peekaboo.py on the boot
 Go to the last line of the script and add:
 
 	echo Running at boot
-	sudo python /home/pi/timelapse/peekaboo.py
+	sudo python timelapse/peekaboo.py
 
 Reboot the Pi to test if everything is working
 
